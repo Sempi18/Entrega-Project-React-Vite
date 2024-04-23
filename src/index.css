@@ -1,0 +1,34 @@
+@font-face {
+  font-family: "F1";
+  src: url("./assets/Formula1-Regular-1.ttf");
+  font-weight: normal;
+  font-style: normal;
+}
+body,
+html {
+  background-color: black;
+  font-family: "F1";
+}
+aside {
+  background-color: rgba(255, 128, 0, 255);
+  min-height: 410px;
+  width: 320px;
+}
+main {
+  background-color: rgba(255, 128, 0, 255);
+  min-height: 410px;
+  width: 1000px;
+  padding-left: 20px;
+}
+
+footer {
+  background-color: rgba(255, 128, 0, 255);
+  margin-top: 20px;
+  text-align: center;
+}
+h1,
+h2,
+h3 {
+  color: black;
+  text-shadow: 3px 3px 3px rgba(73, 199, 251, 255);
+}
